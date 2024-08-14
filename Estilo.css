@@ -1,0 +1,109 @@
+h1 {
+    background-color: rgb(228, 164, 80);
+    text-align: center;
+    border-radius: 15px;
+    margin-inline: 200px;
+
+}
+
+h2 {
+
+    background-color: rgb(148, 113, 68);
+    text-align: center;
+    border-radius: 10px;
+    margin-inline: 400px;
+    max-height: max-content;
+}
+
+.fundo-imag {
+    background-image: image(1.2);
+    align-items: center;
+}
+
+.icons {
+    width: 10%;
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 10%;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 10px;
+    margin-inline: 600px;
+}
+
+.videos {
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+audio:hover,
+audio:focus,
+audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #627300;
+    -webkit-box-shadow: 2px 2px 4px 0px #627300;
+    box-shadow: 2px 2px 4px 0px #afd2b2;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+* {
+    background-color: rgb(243, 211, 170);
+}
+
+.header {
+    padding: 30px 12px;
+    background-color: burlywood;
+    display: flex;
+
+}
+
+.logo {
+    background-color: burlywood;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    background-color: burlywood;
+    border-radius: px;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    font-size: 45px;
+}
